@@ -18,67 +18,112 @@ body {
     background-image: url(images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: top 20vh right 0vw;
+    height: 100vh;
 }
 
 main {
-    margin: 4rem 6rem;
+    margin: 5rem 7rem;
 }
+
+h1 {
+    font-size: 3em;
+    line-height: .8;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Composition */
+
+.container-1-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.starratings-padding {
+    padding: 1rem 1rem;
+}
+
+.star-margin {
+    margin-right: 1rem;
+}
+
+.container-3-flex {
+    display: flex;
+}
+
+.review-3-left-margin {
+    margin-left: 1rem;
+}
+
+.container-3-margin {
+    margin-top: 3rem;
+}
+
+.review-flex {
+    display: flex;
+}
+
+.review-padding {
+    padding: 2rem 1rem;
+}
+
+/* Utility */
+
+.container-1-margin-h1 {
+    margin-bottom: 2rem;
+}
+.container-1-color-h1 {
+    color: var(--Very-Dark-Magenta);
+}
+
+.container-1-color-p {
+    color: var(--Dark-Grayish-Magenta);
+}
+
+.review-bgcolor {
+    background-color: var(--Very-Dark-Magenta);
+}
+
+.review-color-name {
+    color: var(--White);
+}
+
+.review-color-h {
+    color: var(--Soft-Pink);
+}
+
+.review-color-p {
+    color: var(--White);
+}
+
+.review-border-radius-img {
+    border-radius: 3rem;
+}
+
+/* Block */
 
 .container-1 {
+    width: 350px;
+}
+
+.reviews {
     display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
-
-.container-1 h1 {
-    color: var(--Very-Dark-Magenta);
-    font-size: 5ch;
-}
-
-.container-1 p {
-    padding: 1rem 0 3rem;
-}
-
-.ratings-wrapper {
+  
+.report-guru {
+    margin-left: 1rem;
     display: flex;
-    flex-direction: column;
-    margin-left: 2.5rem;
+    align-items: center;
 }
-
-.ratings {
+  
+.best-tech {
+    margin-left: 2rem;
     display: flex;
     align-items: center;
 }
 
-.container-2 {
-    display: flex;
-    margin-top: 5rem;
-}
-
-.testimonials {
-    background-color: var(--Very-Dark-Magenta);
-    margin: 1rem;
-    padding: 1.5rem;
-}
-
-.testimonials img {
-    border-radius: 3rem;
-}
-
-.buyer-info {
-    display: flex;
-}
-
-.buyer-info img {
-    max-width: 100%;
-}
-
-.name {
-    color: var(--White);
-}
-
-.customer {
-    color: var(--Soft-Pink);
-}
-
-.review {
-    color: var(--White);
-}
+/* Exemption */
