@@ -20,10 +20,6 @@ body {
     background-position: top 20vh right 0vw;
 }
 
-.img-height {
-    height: 100%;
-}
-
 main {
     margin: 5rem 7rem;
 }
@@ -82,6 +78,14 @@ img {
     margin-top: 3rem;
 }
 
+.container-3 p {
+    margin-top: 1rem;
+}
+
+.buyer-info {
+    gap: 1rem;
+}
+
 .review-flex {
     display: flex;
 }
@@ -116,11 +120,15 @@ img {
 }
 
 .starratings-border-radius {
-    border-radius: .7rem;
+    border-radius: .5rem;
 }
 
 .starratings-textalign {
     text-align: center;
+}
+
+.container-3 img {
+    height: 2.3rem;
 }
 
 .review-bgcolor {
@@ -137,6 +145,10 @@ img {
 
 .review-color-p {
     color: var(--White);
+}
+
+.review-border {
+    border-radius: .5rem;
 }
 
 .review-border-radius-img {
